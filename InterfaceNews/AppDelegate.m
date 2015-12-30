@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
+
+#import "LeftViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,9 +20,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _tabBarController = [[TabBarController alloc] init];
+    
+    _leftViewController = [[LeftViewController alloc] init];
+    _mmDrawerController = [[MMDrawerController alloc] initWithCenterViewController:_tabBarController leftDrawerViewController:_leftViewController];
+    _mmDrawerController.maximumLeftDrawerWidth = 100;
+    _mmDrawerController.showsShadow = NO;
+    _mmDrawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    _mmDrawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
+    
+    self.window.rootViewController = _mmDrawerController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

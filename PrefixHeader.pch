@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  InterfaceNews
+//
+//  Created by qianfeng on 15/12/15.
+//  Copyright © 2015年 Jackson Liu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define VIEW_WIDTH   self.view.frame.size.width
+#define VIEW_HEIGHT  self.view.frame.size.height
+
+
+#define PARAMETER @{@"appid":@"AGcCMAhmB2YBOQ%3D%3D",@"appType":@"iPhone",@"token":@"6eadc9f537435da3c453f028ada5d54a",@"version":@"2.3.1",@"page":@"1"}
+//首页接口
+/*
+#define HOMEPAGEURL @"http://appapi.jiemian.com/cate/main.json?appid=AGcCMAhmB2YBOQ%3D%3D&appType=iPhone&token=6eadc9f537435da3c453f028ada5d54a&version=2.3.1&page=1"
+ */
+#define HOMEPAGEURL  @"http://appapi.jiemian.com/cate/main.json"
+//商业接口
+#define BUSINESSURL  @"http://appapi.jiemian.com/article/cate/117.json"
+//天下接口
+#define WORLDURL     @"http://appapi.jiemian.com/article/cate/118.json"
+//中国接口
+#define CHINAURL     @"http://appapi.jiemian.com/article/cate/260.json"
+//娱乐接口
+#define AMUSEMENTURL @"http://appapi.jiemian.com/article/cate/203.json"
+#define SPOTRSURL    @"http://appapi.jiemian.com/article/cate/202.json"
+#define ITURL        @"http://appapi.jiemian.com/article/cate/183.json"
+#define CARURL       @"http://appapi.jiemian.com/article/cate/138.json"
+#define BUILDINGURL  @"http://appapi.jiemian.com/article/cate/119.json"
+#define TECHURL      @"http://appapi.jiemian.com/article/cate/123.json"
+#define ESTATEURL    @"http://appapi.jiemian.com/article/cate/121.json"
+#define INVESTURL    @"http://appapi.jiemian.com/article/cate/142.json"
+#define AFTERNOONURL @"http://appapi.jiemian.com/article/cate/120.json"
+
+//详情接口(WKwebView)拼接每个cell的ID
+#define DETAILURL @"http://m.jiemian.com/article/%@.html"
+
+#endif
