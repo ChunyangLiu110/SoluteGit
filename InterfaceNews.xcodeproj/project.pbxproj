@@ -78,6 +78,7 @@
 		BC7CEE021C1FA3BC004B5AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7CEE001C1FA3BC004B5AB9 /* LaunchScreen.storyboard */; };
 		BC7CEE0D1C1FA3BD004B5AB9 /* InterfaceNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CEE0C1C1FA3BD004B5AB9 /* InterfaceNewsTests.m */; };
 		BC7CEE181C1FA3BD004B5AB9 /* InterfaceNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CEE171C1FA3BD004B5AB9 /* InterfaceNewsUITests.m */; };
+		BC94A9241C33B5C600BC3968 /* SBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BC94A9231C33B5C600BC3968 /* SBClass.m */; };
 		BCDF1E9B1C24211300A761D5 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1E9A1C24211300A761D5 /* LeftViewController.m */; };
 		BCDF1E9E1C2425A200A761D5 /* AmusementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1E9D1C2425A200A761D5 /* AmusementViewController.m */; };
 		BCE70DE11C266DCD00FC7C74 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE70DE01C266DCD00FC7C74 /* HelpViewController.m */; };
@@ -210,6 +211,8 @@
 		BC7CEE131C1FA3BD004B5AB9 /* InterfaceNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterfaceNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7CEE171C1FA3BD004B5AB9 /* InterfaceNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceNewsUITests.m; sourceTree = "<group>"; };
 		BC7CEE191C1FA3BD004B5AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC94A9221C33B5C600BC3968 /* SBClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBClass.h; sourceTree = "<group>"; };
+		BC94A9231C33B5C600BC3968 /* SBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBClass.m; sourceTree = "<group>"; };
 		BCDF1E991C24211300A761D5 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		BCDF1E9A1C24211300A761D5 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		BCDF1E9C1C2425A200A761D5 /* AmusementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmusementViewController.h; sourceTree = "<group>"; };
@@ -427,6 +430,8 @@
 				BC7CEDF91C1FA3BC004B5AB9 /* ViewController.m */,
 				BC651BBB1C1FA8BA008C2575 /* BaseViewController.h */,
 				BC651BBC1C1FA8BA008C2575 /* BaseViewController.m */,
+				BC94A9221C33B5C600BC3968 /* SBClass.h */,
+				BC94A9231C33B5C600BC3968 /* SBClass.m */,
 				BC6330F21C26EDEF0031B035 /* SetConreollers */,
 				BCE70DDB1C263A3B00FC7C74 /* Tools */,
 				BCE70DDA1C26394100FC7C74 /* Controllers */,
@@ -768,6 +773,7 @@
 				BC651BC71C1FA95E008C2575 /* WorldViewController.m in Sources */,
 				BCDF1E9B1C24211300A761D5 /* LeftViewController.m in Sources */,
 				BC77473F1C224A0D0073D8F8 /* NSString+Common.m in Sources */,
+				BC94A9241C33B5C600BC3968 /* SBClass.m in Sources */,
 				BC6EB58E1C24E2FB00113A86 /* CarViewController.m in Sources */,
 				BC6EB58B1C24E2E600113A86 /* ITViewController.m in Sources */,
 				BC7C40BC1C218C8F00E3A806 /* HomePageTableViewCell.m in Sources */,
